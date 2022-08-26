@@ -1,0 +1,129 @@
+body {
+  font-family: "Quicksand", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#header1 {
+  background: #495371;
+  height: 80px;
+  padding: 1px;
+  border-top-left-radius: 22px;
+  border-top-right-radius: 22px;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+nav {
+  height: 50px;
+  padding: 1px;
+  background-color: #ccd1e4;
+  top: 0;
+  position: sticky;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+  list-style-type: none;
+  /*background: #21325E;*/
+  /*background-color: #00a2c6;*/
+  padding: 1px;
+  position: sticky;
+  top: 0;
+}
+
+nav a {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+nav a:hover {
+  font-weight: bold;
+}
+
+main {
+  padding: 20px;
+  overflow: auto;
+}
+
+#content {
+  float: left;
+  width: 75%;
+  margin: 0 auto;
+  /*border: 1px solid;*/
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.sidebar {
+  background-color: #92a9bd;
+  float: right;
+  width: 25%;
+  padding-left: 20px;
+  text-align: center;
+}
+
+.sidebar a {
+  text-decoration: none;
+}
+@media screen and (max-width: 1000px) {
+  #content,
+  .sidebar {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+footer {
+  background-color: #789395;
+  padding: 20px;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+/* PEMBUATAN AWAL SEBELUM REVISI */
+/*#menu {
+	height: 50px;
+	padding: 1px;
+	background-color: #CCD1E4;
+	top: 0;
+	position: sticky;
+}*/
+
+/*#menu ul {
+	float: right;
+	background-color: #21325E;
+}*/
+
+/*#sidebar aside {
+	background-color: #92A9BD;
+	float: right;
+	width: 25%;
+	padding-left: 20px;
+	text-align: center;
+}
+
+@media screen and (max-width: 1000px) {
+   #content,
+   #sidebar aside {
+       width: 100%;
+       padding: 0;
+   }
+}*/

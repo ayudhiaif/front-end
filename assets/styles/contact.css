@@ -1,0 +1,37 @@
+.container {
+    display: flex;
+
+    /* Properti lainnya */
+    /*width: 1250px;
+    height: 150px;
+    background-color: #085E7D;
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 0 auto;*/
+}
+
+.container a{
+    text-decoration: none;
+}
+
+.box {
+    flex-grow: 1;
+ 
+    /* properti lainnya */
+    background-color: #79B4B7;
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+#button {
+    /*flex-basis: 25%;*/
+   /* properti pendukung */
+   font-size: 1.5em;
+   text-align: center;
+/*   padding: 40px;*/
+   border: 1px solid black;
+  /* background: -webkit-linear-gradient(top, #d2d2d2, #ddd);*/
+   cursor: pointer;
+}
