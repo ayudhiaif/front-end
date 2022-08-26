@@ -1,2 +1,2 @@
-# front-end
-Bangkit Academy
+# Bangkit Academy 2022 (Dicoding)
+Front-End
